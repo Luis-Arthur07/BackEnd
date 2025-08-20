@@ -1,0 +1,48 @@
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite (ou outros bancos locais)
+*.sqlite3
+
+# Arquivos de log
+*.log
+
+# Configurações do VSCode ou IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de migração de apps (opcional se você quiser controlar as migrações)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Arquivos de mídia e uploads
+/media/
+uploads/
+
+# Arquivos estáticos coletados
+/staticfiles/
+static/
+
+# Arquivos do Django
+db.sqlite3
+local_settings.py
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.swp
+*.bak
+*.tmp
